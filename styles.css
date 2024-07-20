@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+main div {
+    margin: 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
