@@ -25,23 +25,23 @@
         <h1>Sign up</h1>
         <div>
             <label for="user-name">Username</label><br>
-            <input type="text" id="user-name" name="user-name">
+            <input type="text" id="user-name" name="user-name" required minlength="3" maxlength="12">
         </div>
         <div>
             <label for="last-name">Lastname</label><br>
-            <input type="text" id="last-name" name="last-name">
+            <input type="text" id="last-name" name="last-name" required minlength="3" maxlength="12">
         </div>
         <div>
             <label for="email">Email</label><br>
-            <input type="email" id="user-email" name="user-email">
+            <input type="email" id="user-email" name="user-email" required>
         </div>
         <div>
-            <label for="password">Password</label><br>
-            <input type="password" id="user-password" name="user-password">
+            <label for="password" req>Password</label><br>
+            <input type="password" id="user-password" name="user-password" required minlength="3" >
         </div>
         <div>
             <label for="user-confirm-password">Confirm Password</label><br>
-            <input type="password" id="user-confirm-password" name="user-confirm-password">
+            <input type="password" id="user-confirm-password" name="user-confirm-password" required minlength="3">
         </div>
         <div>
             <button type="submit" id="submit" name="submit">Submit</button>
